@@ -16,4 +16,4 @@ Key Features:
 
 📊 Database-Driven Automation: Reduces administrative workload and improves case resolution speed.
 
-🌐 Responsive UI: Developed with Bootstrap to ensure accessibility across devices.
+🌐 Responsive UI: Developed with Bootstrap to ensure accessibility across devices..
