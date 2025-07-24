@@ -1,0 +1,14 @@
+{
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "phpmailer/phpmailer": "^6.9",
+    "andegna/andegna": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/andegna/andegna"
+    }
+  ]
+}
