@@ -18,4 +18,3 @@ Key Features:
 
 🌐 Responsive UI: Developed with Bootstrap to ensure accessibility across devices.
 
-ABeni
