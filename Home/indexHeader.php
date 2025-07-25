@@ -1,8 +1,8 @@
 <?php
   session_start();
   //error_reporting(0);
-  include '../CIMS/connection/connection.php';
-  include '../CIMS/connection/function.php';
+  include '../Court-Information-Management-System/connection/connection.php';
+  include '../Court-Information-Management-System/connection/function.php';
   ?>
 <!DOCTYPE html>
 <html lang="en">

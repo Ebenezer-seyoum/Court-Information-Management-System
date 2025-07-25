@@ -1,5 +1,5 @@
 <?php
-include '../CIMS/Home/indexHeader.php';
+include '../Court-Information-Management-System/Home/indexHeader.php';
 ?>
 <!-- Header Start -->
 <div class="container-fluid bg-breadcrumb">
@@ -167,5 +167,5 @@ if (isset($_POST["send"]) and ($_SERVER["REQUEST_METHOD"] = "POST")) {
         </div>
         <!-- Contact End -->
         <?php
-include '../CIMS/Home/indexFooter.php';
+include '../Court-Information-Management-System/Home/indexFooter.php';
 ?>

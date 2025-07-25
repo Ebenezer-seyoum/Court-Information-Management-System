@@ -1,5 +1,5 @@
 <?php
-include '../CIMS/Home/indexHeader.php';
+include '../Court-Information-Management-System/Home/indexHeader.php';
 ?>
 <div class="header-carousel-item hero-section">    
  <div class="carousel-caption">
@@ -184,5 +184,5 @@ We will only work by law for results and success
 
        
 <?php
-include '../CIMS/Home/indexFooter.php';
+include '../Court-Information-Management-System/Home/indexFooter.php';
 ?>

@@ -1,5 +1,5 @@
 <?php
-include '../CIMS/login/loginHeader.php';
+include '../Court-Information-Management-System/login/loginHeader.php';
 ?>
 <?php
 $username = $password = "";
@@ -116,5 +116,5 @@ if (isset($_POST["login"]) and ($_SERVER["REQUEST_METHOD"] == "POST")) {
   </div>
 </div>
 <?php
-include '../CIMS/login/loginFooter.php';
+include '../Court-Information-Management-System/login/loginFooter.php';
 ?>

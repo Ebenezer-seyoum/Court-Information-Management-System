@@ -1,5 +1,5 @@
 <?php
-include '../CIMS/Home/indexHeader.php';
+include '../Court-Information-Management-System/Home/indexHeader.php';
 ?>
  <!-- Header Start -->
  <div class="container-fluid bg-breadcrumb">
@@ -69,5 +69,5 @@ include '../CIMS/Home/indexHeader.php';
 </div>
 
 <?php
-include '../CIMS/Home/indexFooter.php';
+include '../Court-Information-Management-System/Home/indexFooter.php';
 ?>
