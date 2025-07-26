@@ -161,6 +161,27 @@ function isStrongPassword($password) {
     return true;
 }
 
+function checkUserCredentials($username, $inputPassword) {
+    global $conn;
+
+    // Prevent SQL injection
+    $username = mysqli_real_escape_string($conn, $username);
+
+    $query = mysqli_query($conn, "SELECT * FROM users WHERE username = '$username'");
+    $row = mysqli_fetch_assoc($query);
+
+    if ($row) {
+        // Decrypt stored password
+        $decryptedPassword = decryptPassword($row['password']);
+
+        // Compare with input password
+        if ($inputPassword === $decryptedPassword) {
+            return $row; // Login successful
+        }
+    }
+
+    return false; // Login failed
+}
 
 
 //user password get
