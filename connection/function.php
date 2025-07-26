@@ -315,22 +315,6 @@ function getRoleByUsername($data)
     }
 }
 
-function checkUserCredentials($username, $inputPassword) {
-    global $conn;
-
-    $query = mysqli_query($conn, "SELECT * FROM users WHERE username = '$username'");
-    $row = mysqli_fetch_assoc($query);
-
-    if ($row) {
-        // Directly compare plain input with stored password
-        if ($inputPassword === $row['password']) {
-            return $row;
-        }
-    }
-
-    return false;
-}
-
 
 function checkIs_loggedIn($data) {
     global $conn;
